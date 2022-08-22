@@ -1,0 +1,150 @@
+
+
+@import url(reset.css);
+
+@font-face {
+    font-family: 'Lato-regular';
+    src: url(font/latoregular.woff2);
+    font-weight: 400;
+}
+
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+
+.logo {
+    font-family: 'Lato-regular', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 28px;
+}
+ .nav {
+    margin-top: 28px;
+ }
+
+.nav a {
+    text-decoration: none;
+    color: #00D6B4;
+    margin-left: 40px;
+    font-family: 'Lato-regular', serif;
+    font-size: 11px;
+   
+    
+
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+
+}
+
+.nav_flex {
+   
+    text-transform: uppercase;;
+}
+
+.main_1 {
+    color: white;
+    margin: 138px;
+    font-size: 48px;
+    margin-left: calc(50% - 465px/2 + 0.5px);
+    font-family: 'Lato-regular', serif;
+    line-height: 53px;
+}
+
+.btn {
+    box-sizing: border-box;
+    width: 137px;
+    height: 39px;
+    background: none;
+    color: #00D6B4;
+    border: solid #00D6B4;
+    border-radius: 3px;
+    margin-left: calc(50% - 150px/2);
+    text-transform: uppercase;
+    margin-bottom: 140px;
+}
+
+.btn:active {
+    background: #00D6B4;
+    color: aqua;
+}
+
+.main {
+    background: #222222;
+}
+
+.header {
+    background: url(/img/IMAGE.png) no-repeat;
+    background-size: cover;
+}
+
+.head {
+    color: white;
+    font-family: 'Lato-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left:  calc(50% - 136px/2);
+    padding-top: 49px;
+    padding-bottom: 33px;
+}
+
+.main_img  {
+    margin-left: 25.04%;
+    display: grid;
+    grid-template-columns:  repeat(3, 322px);
+    grid-template-rows: repeat(3, 244px);
+    grid-row: 22px;
+    padding-bottom: 101px;
+}
+
+.footer {
+    background: #222222;
+}
+
+.footer_1 {
+    width: 70px;
+    height: 22px;
+    margin-left: calc(50% - 70px/2);
+    text-align: center;
+    text-transform: uppercase;
+
+
+    font-family: 'Lato-regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #C2C2C2; 
+}
+
+.footer_2 {
+    margin-left: calc(50% - 105px/2 + 0.5px);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+/* identical to box height, or 150% */
+
+    
+
+    color: #999999;
+
+}
+
+.img {
+    grid: 1 1 0;
+}

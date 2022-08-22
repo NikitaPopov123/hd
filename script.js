@@ -1,0 +1,5 @@
+
+
+AOC.init({
+    once: true
+})
